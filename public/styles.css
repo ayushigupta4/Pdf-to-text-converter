@@ -11,24 +11,31 @@ body {
 }
 
 .container {
-    max-width: 400px;
+    max-width: 600px;
     margin: 50px auto;
 }
 
-button :link,
-button:visited {
-    display: inline-block;
-    padding: 10px 30px;
-    text-decoration: none;
-    font-weight: 300;
-    border-radius: 200px;
-    background-color: coral;
-    border: transparent;
-    transition: backgroun-color 0.2s;
+textarea {
+    width: 600px;
+    height: 300px;
 }
 
-button:active,
-button:hover {
-    background-color: brown;
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+h1 {
+    padding: 40px;
+}
+
+.box {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
 
